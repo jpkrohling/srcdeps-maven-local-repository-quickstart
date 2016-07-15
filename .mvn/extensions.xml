@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extensions>
+  <extension>
+    <groupId>org.l2x6.srcdeps</groupId>
+    <artifactId>srcdeps-maven-local-repository</artifactId>
+    <version>0.0.12-SNAPSHOT</version>
+  </extension>
+</extensions>

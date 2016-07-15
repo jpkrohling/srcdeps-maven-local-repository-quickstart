@@ -1,0 +1,21 @@
+configModelVersion: 1.0
+forwardProperties:
+- myForwardProperty
+builderIo:
+  stdin: inherit
+  stdout: inherit
+  stderr: inherit
+skip: false
+skipTests: false
+sourcesDirectory: ~/.m2/srcdeps
+verbosity: info
+repositories:
+  hawkularCommons:
+    selectors:
+    - org.hawkular.commons
+    urls:
+    - git:https://github.com/hawkular/hawkular-commons.git
+    buildArguments:
+    - -Dcheckstyle.skip=true
+    - -Dlicense.skip=true
+    - -Drevapi.skip=true
